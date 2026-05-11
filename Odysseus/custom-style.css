@@ -1,0 +1,913 @@
+/*hide rule number on promo icons*/
+guest-info-v2 cruise-promotions-component span.ml-1.ng-star-inserted {
+    display: none;
+}
+
+/*hide fare codes*/
+/*.category-price-table .category-farecode-list{
+	display:none;
+}*/
+
+/*popup styles*/
+#checkout-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+#checkout-popup {
+  background: #fff;
+  padding: 25px;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+#checkout-popup-close-x {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.location_select_v1 label:after {
+    content: "(Click to change default destination)";
+}
+
+li.ng-star-inserted:has(span.promo-NRD), span[data-ody-id="promo_NRD"] {
+    display: none !important;
+}
+
+/*body[data-ody-user-type="b2b"] button:has(em.odi.odi-share), body[data-ody-user-type="b2b"]  a:has(i.odi.odi-share), a.share-icon {
+    display: none;
+}*/
+
+a.addprod, a.addprod2, a.addprod-popup {
+    background: #BE9F55;
+    color: #fff!important;
+    padding: 3px 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+} 
+
+a.addprod-popup {
+    padding: 5px 20px!important;
+    border-radius: 5px;
+} 
+
+a.addprod{display:none;}
+
+div.hotel-category-outer .accordion.mt-3, div.hotel-item-card .accordion.mt-3 {
+    display: none;
+}
+
+/*hide flights when cruise is too close  to departure date*/
+section.air-card:has(div[data-original-title="Flight arrival is close to cruise departure."]), section.air-card:has(div[data-original-title="Flight arrival is after cruise departure."]), section.air-card:has(div[data-original-title="Flight departure is after cruise departure."]), section.air-card:has(div[data-original-title="Flight departure is after cruise departure."]), section.air-card:has(div[data-original-title="flight departure is close to cuise arrival."]){
+    display: none;
+}
+
+/*hide cancellation policy*/
+.cancellation-policy-label,
+[data-ody-id='CustomerBookingEmail'] .custom-email-button .mProNoteCont[data-ody-id='cancellationPolicyTab'],
+[data-ody-id='cancellationPolicyButton'],
+[data-ody-id='refundPolicyTimeline'] {
+  display: none !important;
+}
+
+/*marquee-style*/
+div.marquee {
+    text-align: center;
+    font-weight: 700;
+    background: #bf9e55;
+    color: #fff;
+    padding: 5px;
+    text-transform: capitalize;
+    border-bottom: solid 1px;
+    min-height: 35px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*fleximarkup text*/
+label.flex-grow-1.text-bold.markup-title:after {
+    content: "Please Note: this will only affect the cruise element of the booking";
+    display: block;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+/*form inputs to have white backgrounds*/
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .od-input-wrapper .od-date-picker, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .od-input-wrapper .od-input-box, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__tags, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-location-select .location-select, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-pax-picker .pax-count-input, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-time-picker .mx-datepicker .mx-input, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .od-input-wrapper .default-product-searchform-container .od-date-picker, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .od-input-wrapper .default-product-searchform-container .od-input-box, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .default-product-searchform-container .multiselect__tags, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-location-select .default-product-searchform-container .location-select, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-pax-picker .default-product-searchform-container .pax-count-input, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-time-picker .mx-datepicker .default-product-searchform-container .mx-input{
+	background: #fff;
+}
+
+.search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon, .search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search span{
+	color:#fff!important;
+}
+.cruise-special-services .card-header.conf-title, .upgrade-fare .fare-price-total, .scrollControlSystem a.navigation.active{
+	background-color: #BE9F55!important;
+}
+
+.alert-primary {
+    background-color: #ddd;
+}
+
+.show-cabinscount {
+    color: #333!important;
+    background-color: #ddd!important;
+}
+
+/*Tags Colour*/
+/*quote tag*/.status12 {
+    background-color: red!important;
+}
+
+/*package price text size*adjustment/
+.package-prices.ng-star-inserted .text-center.mx-1.ng-star-inserted h6 {
+    font-size: 1.25em;
+}
+
+.custom-select {
+background-color: #fff;
+}
+
+/*payment page timer*/
+h4.d-flex.align-items-center.booking-timer.text-primary.timerSPC span#Extendtime {
+    color: red;
+    font-weight: 700;
+}
+
+@media(max-width:991px){
+	.package-summary-icon {
+    min-height: auto !important;
+    width: 100% !important;
+    display: block;
+    max-width: 100% !important;
+    min-width: auto !important;
+    /* text-align: center; */
+    /* margin: auto; */
+}
+}
+
+/*itinerary info box text adjustment*/
+.itinerary-node-info-group, .itinerary-node-info-group span.text-capitalize{
+	text-transform: uppercase!important;
+}
+
+/*hide comms info box on flight search*/
+section.card-material.air-card .agent-info.d-print-none {
+    /*display: none;*/
+	text-transform: uppercase!important;
+}
+
+/*hide connecting cabins*/
+/*div[data-ody-id="SpaecialRates"] .d-inline-flex.flex-column:has(input[name="isConnectingCabinsSelected"]) {
+    display: none !important;
+}*/
+
+/*Quick Scroll Button Payment Page*/
+  /*button.btn-right:hover  span.txt-hidden{
+    visibility:visible!important;
+  }*/
+  
+  .flexbox.btn-container {
+      /* flex-direction: column!important; */
+      /*position: fixed;*/
+      right: 0;
+      /* top: 50%; */
+      /*bottom: 50%;*/
+      z-index: 999;
+    width:auto;
+  }
+  
+  button.btn-right:hover{   max-width: 90px;}
+  
+  
+  /*.txt-hidden{
+    visibility:hidden;
+  }*/
+  
+  .btn-right {
+      /*position: fixed;*/
+      z-index: 999;
+      right: 0;
+      /*top: 50%;
+      bottom: 50%;*/
+min-height: 30px!important;
+      text-align: center;
+      background-color: #333;
+      padding: 10px 5px;
+      min-width: 160px;
+      max-width: /*50px*/200px;
+      line-height: 1.2em;
+      height: auto;
+    border: none;
+    border-bottom: solid 1px;
+      border-radius: 0 !important;
+      margin: 0;
+      /*box-shadow: 0 0 6px #444;*/
+    font-weight:500!important;
+    text-transform: capitalize!important;
+  }
+
+/*Save for later btn*/
+a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary {
+    color: #fff !important;
+	text-transform: capitalize !important;
+    font-weight: 700;
+}
+
+a.btn.btn-invert.btn-sm.text-uppercase.text-primary.btn-outline-primary:hover, .btn-outline-primary:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary:hover, .btn-outline-primary:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary:hover {
+    background: #000 !important;
+	border: none;
+}
+  
+  #checkout-quicklinks{
+    position: fixed!important;
+	z-index: 999;  
+    right: 0;
+    top: 40%;
+    bottom: 50%;
+  }
+
+/*Choose Cabin Category breadcrumb CSS*/
+div[data-ody-id="ProgressStepperBar"] div.checkout-step.text-center.ng-star-inserted:nth-of-type(2) span span::before {
+    content: "Choose ";
+}
+
+/*remove dollar icon*/
+[data-ody-id='FilterSection'] .odi-money,
+.search-filter .odi-money, em.odi.odi-money.fs24.mr-2 {
+	margin-top: -5px;
+    font-size: 1.5rem !important;
+    margin-right: 0.75rem !important;
+	font-weight: bold;
+}
+
+.search-filter .odi-money {
+	margin-right: 0.5rem !important;
+}
+
+[data-ody-id='FilterSection'] .odi-money::before,
+.search-filter .odi-money::before, em.odi.odi-money.fs24.mr-2:before {
+	content: '£' !important;
+}
+
+/*HIDDEN ELEMENTS*/
+.col-12.mb-2.additionalServWidget div#CruiseTransfers {
+    display: none;
+}
+
+/*button[ng-reflect-tooltip="Share"] {
+    display: none;
+}*/
+
+div[data-ody-id="sailingDateSection"] .section-sailing-date-btns {
+    display: none;
+}
+
+input#ItineraryAddFlightButton {
+        font-weight: 400;
+	min-width: 200px;
+}
+
+a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink, a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink {
+    min-width: 200px;
+    margin-left: 3px;
+}
+
+.card.st-open.border-bottom input#AddFlightBTN {
+    display: none;
+}
+
+.container-fluid.d-flex.align-items-center.justify-content-end.custom-modifysearchtext span.text-white.text-nowrap.fs18 {
+    display: none;
+}
+
+.supplier-api-errors{display:none;}
+
+/*th[data-ody-id="fareCodeFareTypeTableHeader"] {
+ display: none;
+}
+
+td[data-ody-id="fareCodeFareTypeCell"] {
+  display: none;
+}
+button[data-ody-id="FareCodeSelectionButton"] {
+    display: none;
+}*/
+
+.section-alert-message.container-fluid.alert-msg-wrapper {
+    display: none;
+}
+
+input#_ctl0_MainContentsPH__ctl0_HoldNoEmailBTN {
+    display: none;
+}
+
+/*HEADER*/
+
+.custom-header {
+        width: 100%;
+        background-color: #fff;
+        box-sizing: border-box;
+    }
+
+header.custom-header div.fbx-75{ justify-content: end;}
+header.custom-header div.fbx-100{ text-align: right;}
+
+/*.custom-header-container.flexbox {
+    border-bottom: solid #BE9F55;
+}*/
+
+    .custom-header-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1280px;
+        max-width: var(--main-container-max-width, 1280px);
+        margin: 0 auto;
+        padding: 10px 16px;
+        box-sizing: border-box;
+    }
+
+@media(max-width:1024px){
+div#header div.fbx-75 {
+    width: calc(50% - 20px);
+}
+}
+
+a.nav-links, a{
+color: #BE9F55;
+}
+
+a.nav-links:hover, a:hover{
+color: #777;
+}
+
+button[data-ody-id=SearchButton], button[data-ody-id=SearchButton]:focus, button[data-ody-id=SearchButton]:hover{
+       background-color: #333;
+    border-color: #333;     
+}
+
+.btn-container .primary-btn, .btn-container .primary-btn:hover{
+         background: #BE9F55!important;
+    border: 2px solid #BE9F55!important;   
+}
+
+.btn-container .secondary-btn, .btn-container .secondary-btn:hover {
+    color: #BE9F55!important;
+    border: 2px solid #BE9F55!important;
+}
+
+    .custom-phone {
+        font-size: 20px;
+        color: #BE9F55;
+    }
+
+    .custom-phone:hover {
+        text-decoration: none;
+        color: #BE9F55;
+    }
+
+    @media (max-width: 768px) {
+        .custom-header-brand img {
+            max-width: 170px;
+            height: auto;
+        }
+header.custom-header div.fbx-100{ text-align: center;}
+        .custom-header-brand {
+            margin-bottom: 20px;
+		text-align:center;
+        }
+
+        .custom-header-container {
+            justify-content: center;
+            flex-direction:column;
+        }
+    }
+
+/*BODY FONT RESPONSIVE*/
+
+@media(max-width: 1200px){
+        body {font-size: 85%;}
+}
+
+@media(max-width: 768px){
+        body {font-size: 80%;}
+}
+
+/*ADMIN FORGOT PASSWORD*/
+div.logbox div.login .rememberblock {
+    display: none!important;
+}
+
+/*SEARCH BAR*/
+
+/*Hide Cruise Only and tours on filter bar*/
+div[data-ody-id="FilterPanelCruiseTypes"] {
+    display: none;
+}
+
+/*Hide Cruise only checkbox*/
+section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group .ml-3.my-2.ng-star-inserted:nth-of-type(1) {
+    display: none;
+}
+
+/*Hide Cruise tour checkbox*/
+section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group .ml-3.my-2.ng-star-inserted:nth-of-type(2) {
+    display: none;
+}
+
+/*hide show all packages*/
+section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3.my-2:nth-of-type(8) {
+    display: none;
+}
+
+/*Hide Rules section*/
+[data-ody-id="FilterPanelRules"] {
+    display: none;
+}
+
+.search-bar-section {
+    background: /*#fff*/#be9f55!important;
+    color: /*#666*/#fff!important;
+}
+
+.custom-control-input:checked~.custom-control-label::before{
+	color:#666!important;
+}
+
+.search-resultpage.swift-search-bar label, .search-resultpage.swift-search-bar label{
+        color: #fff!important;
+}
+
+.search-resultpage.swift-search-bar .custom-guest-dialog, .search-resultpage.swift-search-bar .form-control.custom-datepicker, .search-resultpage.swift-search-bar .form-control.custom-select, .search-resultpage.swift-search-bar input.form-control {
+    border-color: rgba(0,0,0,.1)!important;
+    color: #000!important;
+}
+
+.search-bar-section ody-dropdown .select2-container--default .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default .select2-selection--single, .search-bar-section ody-dropdown .select2-container--default.select2-container--disabled .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default.select2-container--disabled .select2-selection--single, .search-bar-section ody-dropdown .select2-container--default.select2-container--focus .select2-selection--multiple, .search-bar-section ody-dropdown .select2-container--default.select2-container--focus .select2-selection--single {
+    border-color: #ddd;
+}
+
+.container-fluid.d-flex.align-items-center.justify-content-end.custom-modifysearch.pt-2, .bg-primary, .ui-datepicker .ui-datepicker-header, .ui-datepicker .ui-datepicker-calendar .ui-state-active, .select2-container--default .select2-results__option[aria-selected=true], .popup.list .list_item_hover, #odysseus #OVExploreContainer .od-form-wrapper .multiselect__option--selected, #odysseus #OVExploreContainer .od-form-wrapper .multiselect__option--selected.multiselect__option--highlight{
+       background-color: #BE9F55;  
+}
+
+.btn-primary, .primary-btn, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .switch-container .switch-yes-no .switch-label::after, input#ItineraryAddFlightButton, .d-print-none.btn-add-hotel a {
+    background-color: #BE9F55;
+    border-color: #BE9F55;
+ color:#fff!important;
+}
+
+.btn-outline-primary {
+    border-color: #BE9F55;
+    color: #fff!important;
+    background-color: #BE9F55!important;;
+    background-image: none;
+}
+
+.progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner::after, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner::after, .nav-stepper .nav-link.active::after {
+    border-color: transparent #BE9F55!important;
+}
+
+.cruise-title, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted, .text-price-color, .text-primary, .top-line .nav-tabs>li.active>a.nav-link, .top-line .nav-tabs>li.active>a.nav-link:focus, .top-line .nav-tabs>li.active>a.nav-link:hover, a.hotel-searchform-top.text-decoration-none.py-1 span, h6.sailing-category-price.my-2 {
+    color: #BE9F55!important;
+	text-transform: uppercase;
+}
+
+/*hide policies tab from modal*/
+div.modal-body tabset ul.nav.nav-tabs li.nav-item.ng-star-inserted a#policies-link, div.modal-body tabset ul.nav.nav-tabs li[ng-reflect-ng-class="nav-item,"]:nth-of-type(5) {
+    display: none;
+}
+
+tabset.full-width.top-line.outline.tab-container ul li.nav-item:nth-of-type(5) {
+    display: none;
+}
+
+/*hide port charges in fleximarkp section*/
+.card.p-2.mb-3.category-markup div.port-charges {
+    display: none;
+}
+
+/*hide checkbox for senior guest section below pax info*/
+/*div[data-ody-id="hasSeniorGuestSection"] {
+    display: none;
+}*/
+
+.d-flex.align-items-start.justify-content-between.guest-info-title .text-primary {
+    color: #BE9F55!important;
+}
+
+.btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .section-booking-timer-extend, .trip-price-popup {
+    border-color: #BE9F55!important;
+}
+
+.btn-outline-secondary {
+    color: #BE9F55!important;
+    border-color: #BE9F55!important;
+}
+
+.nav-tabs-overline>.nav-tabs .nav-link.active {
+   color: #BE9F55!important;
+    border-top-color: #BE9F55!important;
+}
+
+.bg-discription-table {
+    background-color: #838383!important;
+}
+
+.bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .progress-bar-indeterminate::after, .progress-bar-indeterminate::before, .progress-bar-query::after, .progress-bar-query::before, .search-resultpage.swift-search-bar .pax-count .dialog button, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search, .popup.list>div:hover, .switch-btn.active, .switch-field input:checked+label, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search, .bg-optionalAddOns-expand
+{
+    background-color: #BE9F55!important;    
+}
+
+.bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, div[data-ody-id="HotealSearchFilterSec"] h6.card.flex-row.bg-primary.d-flex.align-items-center.px-2.py-2{
+     background: #a0a0a0!important;    
+}
+
+@media (max-width: 767px) {
+    .nav-tabs-accordion .tab-accordion>.card-header[aria-expanded=true], .nav-tabs-accordion .tab-accordion>.card-header[aria-expanded=true]:focus, .nav-tabs-accordion .tab-accordion>.card-header[aria-expanded=true]:hover {
+        background: #333!important;
+    }
+}
+
+.bg-primary.trip-total.w-100, .table-header.supplier-payment-title-table {
+ background-color: #a0a0a0!important;   
+}
+
+div#lbl_from {
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+div#divFlexibledates {
+    display: none;
+}
+
+.progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, ::selection, .checkout-stepper-accordion .valid .spc-panel-title .step-number, div[data-ody-id="CheckoutDetails"] .card.st-open a.card-header.d-md-flex.align-items-center.spc-panel-title 
+   {
+     background: #BE9F55!important;    
+}
+
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search:hover {
+    background-color: #000!important;
+}
+
+/*MAIN PAGE*/
+.cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active, .cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active:focus, .cruise-sailing-dates .nav-tabs>li.nav-item>a.nav-link.active:hover {
+    border-top: 2px solid #BE9F55!important;
+    color: #BE9F55;
+}
+
+.matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption, .search-resultpage.swift-search-bar .btn-outline-primary, .search-resultpage.swift-search-bar .btn-primary, .search-resultpage.swift-search-bar .primary-btn, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-outline-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-primary, cruise-prices-component .cruise-lowest-prices .low-rate .low-rate-list li span{
+color: #BE9F55!important;
+}
+
+cruise-prices-component .cruise-lowest-prices .low-rate {
+    border-color: #fff;
+    border: solid #fff;
+    background-color: #ddd;
+    color: #333!important;
+    font-weight: 700;
+}
+
+.low-rate-list li {
+    border-color: #fff!important;
+}
+
+
+/*SEARCH CSS*/
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search{
+ background-color: #be9f55;
+}
+
+.search-resultpage.swift-search-bar .custom-guest-dialog, .search-resultpage.swift-search-bar .form-control.custom-datepicker, .search-resultpage.swift-search-bar .form-control.custom-select, .search-resultpage.swift-search-bar input.form-control {
+    background-color: transparent;
+    border-color: #ddd!important;
+    color: #333!important;
+}
+
+.air-searchform-top .top-title .odi::before{
+        background: rgba(0,0,0,0)!important;
+}
+
+/*BF STAGE 1 CUSTOMER DETAILS TICKBOX*/
+h5.text-primary.fw-bold.fs16.guest-info-title {
+    color: #fff!important;
+}
+
+/*FLIGHT RESULTS CSS*/
+div.flprice span[data-ody-id="TripTotal"] {
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+div.flprice .price-box .air-sub-price {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.15em;
+}
+
+div[data-original-title="Flight arrival is close to cruise departure."]:after, div[data-original-title="Flight arrival is close to cruise arrival."]:after, div[data-original-title="Flight arrival is after cruise departure."]:after {
+    /*content: "This Flight is not Selectable";*/
+    right: 0;
+    max-width: 210px;
+    word-wrap: normal;
+    display: block;
+    text-wrap: balance;
+   padding: 5px 10px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2em;
+    background: red;
+    color: #fff;
+}
+
+/*Flight Filters*/
+.filter-section .search-filter .filter-list .only-text {
+    position: absolute;
+    padding: 6px!important;
+    top: 2px!important;
+    right: 2px!important;
+    background: #be9f55;
+ color:#fff;
+    font-weight: 700;
+}
+
+h5.mb-1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+div.col-12.col-md-6.float-left.clear-left.guest-info-section.ng-star-inserted fieldset.ng-star-inserted {
+    background: #fff!important;
+    color: #000!important;
+}
+
+.d-print-none.btn-add-hotel a:hover{
+ background: #000!important;
+    color: #fff!important;
+}
+
+select.custom-select.w-auto.ng-pristine.ng-valid.ng-touched {
+    background-color: #fff;
+}
+
+input.form-control.w-65px.ng-valid.ng-dirty.ng-touched {
+    color: #222;
+}
+
+/*FORM CONTENT*/
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .od-input-wrapper .product-searchform-container .od-date-picker, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .od-input-wrapper .product-searchform-container .od-input-box, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-location-select .product-searchform-container .location-select, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-pax-picker .product-searchform-container .pax-count-input, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-time-picker .mx-datepicker .product-searchform-container .mx-input, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .product-searchform-container .multiselect__tags, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .od-input-wrapper .od-date-picker, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .od-input-wrapper .od-input-box, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__tags, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-location-select .location-select, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-pax-picker .pax-count-input, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .od-time-picker .mx-datepicker .mx-input {
+    color: ##fff;
+    border-color: rgba(255,255,255,.25);
+}
+
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .product-searchform-container .mx-icon-clear, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__tags .product-searchform-container .multiselect__placeholder, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .product-searchform-container .multiselect__single, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper .mx-icon-clear, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__single, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .vue_multiselect .multiselect__tags .multiselect__placeholder{
+ color: #fff!important;
+}
+
+.package-itinerary .package-itinerary-body {
+    padding: 0.5rem .75rem;
+}
+
+
+
+/*Pre/post cruise hotel button*/
+a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before {
+    content: "Pre-Cruise ";
+}
+
+a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before{
+    content: "Post-Cruise ";
+}
+
+/*a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink:before, a#_ctl0__ctl1_ItineraryDetails__ctl0_PostCruiseHotelLink:before {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}*/
+
+/*.overflow-auto.mProItineraryContainer:before {
+    content: "Choose your Pre and Post Cruise Extras or scroll down to complete your booking.";
+    font-weight: bold;
+    padding-left: 50px;
+}*/
+
+
+
+
+@media(max-width: 550px){
+ tr.package-itinerary-node.d-none:hover:after {
+    width: 155px;
+}
+}
+input#ItineraryAddFlightButton:hover {
+    background-color: #000!important;
+}
+
+/*Hide FLight Ticket info*/
+/*div[data-ody-id="CruiseAIrItinerarySection_1"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_2"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_3"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_4"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_5"] .info-card.mProDetCont, div[data-ody-id="CruiseAIrItinerarySection_6"] .info-card.mProDetCont {
+    display: none;
+}*/
+
+/*custom button design for final buttons on payment page*/
+.spc-conti-cont.btn-container span input, .spc-conti-cont.btn-container input[data-ody-id="SaveForLaterButton"],input[data-ody-id="AdditionalServicesAddFlightButton"] {
+    background-color: #be9f55;
+    color: #fff!important;
+    border: solid 1px#be9f55;
+}
+
+.spc-conti-cont.btn-container span input:hover, .spc-conti-cont.btn-container input[data-ody-id="SaveForLaterButton"]:hover, input[data-ody-id="AdditionalServicesAddFlightButton"]:hover {
+    background-color: #333;
+    color: #fff!important;
+    border: solid 1px #333!important;
+}
+
+/*------------------------------------------TOOLTIPS------------------------------------------*/	
+
+/*TOOLTIP GENERAL*/
+     
+tr.package-itinerary-node.d-none:hover:after, .cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after, .d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after, .package-summary-icon.text-primary:hover:after, .d-print-none.btn-add-hotel:hover:after  {
+position: absolute;
+    /*margin: 40px 0px 0px -175px;*/
+    width: 200px;    
+	z-index: 999;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #ccc;
+    color: #333;
+	border: solid 1px #bbb;
+    border-radius: 10px;
+}
+
+/*TOOLTIP INDIVIDUAL*/
+tr.package-itinerary-node.d-none:hover:after {
+    content: "Add a pre and post cruise flight to your package.";
+	    border-left: solid 10px #aaa;
+	right: 50%;
+}
+
+@media(max-width:1400px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 40%;
+}	
+}
+
+@media(max-width:1100px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 30%;
+}	
+}
+@media(max-width:1000px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 40%;
+}	
+}
+
+@media(max-width:860px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 25%;
+}	
+}
+
+@media(max-width:550px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 0;
+}	
+}
+
+.d-print-none.btn-add-hotel:hover:after {
+    content: "Add a pre and post cruise hotel to your package.";
+	border-left: solid 10px #aaa;
+	margin-top:-30px;
+}
+
+.cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after {
+    content: "Select how you wish to view your results";
+	    border-top: solid 10px #aaa;
+	margin: 40px 0px 0px -140px;
+}
+
+
+/*airline filter tooltip*/
+.d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after {
+    content: "click the tickbox to select your option or click on then 'only' button to select only one option";
+    right: -200px; 
+    border-left: solid 10px #aaa;
+}
+
+/*package icon tooltip*/
+.package-summary-icon.text-primary:hover:after {
+    content: "What's included in your current package";
+    border-left: solid 10px #aaa;
+}
+/*Hotel serch adjustments*/
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-form-wrapper {
+    color: #fff!important;
+}
+
+.search-resultpage #odysseus #OVExploreContainer .od-form-wrapper .od-search-button #SearchBTN.btn-search .od-icon svg {
+    fill: #fff !important;
+}
+
+/*FLEX BOXES*/
+.flexbox{display: flex;flex-wrap: wrap;width: 100%;}
+.fbx-100{width: calc(100% - 20px);padding: 0 5px;}
+.fbx-84{width: calc(83.333% - 20px);padding: 0 5px;}
+.fbx-75{width: calc(75% - 20px);padding: 0 5px;}
+.fbx-66{width: calc(66.667% - 20px);padding: 0 5px;}
+.fbx-60{width: calc(60% - 10px);padding: 0 5px;}/*3/5 column*/
+.fbx-50{width: calc(50% - 20px);padding: 0 5px;} /*2 column*/
+.fbx-40{width: calc(40% - 10px);padding: 0 5px;}/*2/5 column*/
+.fbx-33{width: calc(33.333% - 20px);padding: 0 5px;} /*3 column*/
+.fbx-25{width: calc(25% - 20px);padding: 0 5px;} /*4 column*/
+.fbx-20{width: calc(20% - 10px);padding: 0 5px;}/*5 column*/
+.fbx-16{width: calc(16.667% - 10px);padding: 0 5px;}/*6 column*/
+.fbx-12{width: calc(12.5% - 10px);padding: 0 5px;}/*8 column*/
+.fbx-10{width: calc(10% - 10px);padding: 0 5px;}/*10 column*/
+
+@media(max-width: 1450px){
+  .fbx-10{width: calc(20% - 20px);padding: 0 5px;}
+  .fbx-12{width: calc(25% - 10px);padding: 0px;}
+}
+
+@media(max-width: 1200px){
+  .fbx-16{width: calc(33.333% - 10px);padding: 0px;}
+
+}
+
+@media(max-width: 1024px){
+  .fbx-25{width: calc(50% - 20px);}
+}
+
+@media(max-width: 920px){
+
+.fbx-20{width: calc(50% - 20px);}
+.fbx-40{width: calc(50% - 10px);}
+.fbx-60{width: calc(50% - 10px);}
+.fbx-16{width: calc(50% - 20px);} 
+.fbx-12{width: calc(25% - 10px);}
+.fbx-10{width: calc(25% - 20px);}
+}
+
+@media(max-width: 768px){
+.fbx-84{width: calc(66.667% - 20px);}  
+.fbx-75{width: calc(50% - 20px);}
+.fbx-50{width: calc(100%)!important;}
+.fbx-66{width: calc(50% - 20px);}   
+.fbx-33{width: calc(50% - 20px);}
+.fbx-10{width: calc(25% - 20px);} 
+
+@media(max-width: 720px){
+.fbx-12{width: calc(50% - 10px);}
+}
+
+@media(max-width: 680px){
+.fbx-66{width: calc(100%)!important;}
+.fbx-33{width: calc(100%)!important;}
+}
+
+@media(max-width: 550px){
+.fbx-40{width: calc(100%)!important;}
+.fbx-60{width: calc(100%)!important;}
+.fbx-84{width: calc(100%)!important;}
+.fbx-75{width: calc(100%)!important;}
+.fbx-50{width: calc(100%)!important;}
+.fbx-25{width: calc(100%)!important;}
+.fbx-20{width: calc(100%)!important;}
+.fbx-16{width: calc(50% - 20px);}  
+.fbx-12{width: calc(100%)!important;}
+.fbx-10{width: calc(50% - 20px);} 
+
+@media(max-width: 320px){
+  .fbx-16{width: calc(100%)!important;} 
+}
+
+

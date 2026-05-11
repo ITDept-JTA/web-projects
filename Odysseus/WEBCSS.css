@@ -1,0 +1,318 @@
+/*hide addprod buttons on checkout page*/
+/*body.page_booking_checkout tr[data-ody-id="ItineraryAddAirButton"], body.page_booking_checkout tr.package-itinerary-node:has(div.btn-add-hotel){
+display:none!important;}*/
+
+/*payment page notice*/
+body.page_booking_checkout .section-alert-message:before {
+    content: "Before proceeding please ensure you select a flight the day prior to the cruise departure";
+    width: 100%;
+    background: red;
+    display: block;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.location_select_v1 label:after {
+    content: "(Click to change default destination)";
+}
+
+div.hotel-category-outer .accordion.mt-3, div.hotel-item-card .accordion.mt-3 {
+    display: none;
+}
+
+/*hide flights when cruise is too close  to departure date*/
+section.air-card:has(div[data-original-title="Flight arrival is close to cruise departure."]){
+    display: none!important;
+}
+
+/*Tags Colour*/
+.status12 {
+    background-color: royalblue!important;
+}
+
+/*hide cancellation policy*/
+.cancellation-policy-label,
+[data-ody-id='CustomerBookingEmail'] .custom-email-button .mProNoteCont[data-ody-id='cancellationPolicyTab'],
+[data-ody-id='cancellationPolicyButton'],
+[data-ody-id='refundPolicyTimeline'] {
+  display: none !important;
+}
+
+/*per person text on f h results*/
+.tot-price.PkgPriceTotal span.fs10.d-block,  div.mb-1 span.fs10.d-block{
+    font-size: 1.3em;
+    font-weight: 900;
+    color: #838383;
+}
+
+tr[data-ody-id='ItineraryAddAirButton'] {
+  display: table-row !important;
+}
+
+/*Alert Message*/
+.section-alert-message.container-fluid.alert-msg-wrapper {
+    display: none;
+}
+
+.tickettype-note {
+    display: none;
+}
+
+/*flight search tabs*/
+/*.air-search-tabs label.air-search-tab:nth-of-type(2), .air-search-tabs label.air-search-tab:nth-of-type(3) {
+    display: none;
+}*/
+
+/*FLIGHT RESULTS CSS*/
+div.flprice span[data-ody-id="TripTotal"] {
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+/*Flight Agent Info*/
+section[data-ody-id="AirResultFlightSummary"] ul.d-flex.flex-wrap.listing.light-theme-background li:nth-of-type(5) {
+    display: block;
+}
+
+section[data-ody-id="AirResultFlightSummary"]  ul.d-flex.flex-wrap.listing.light-theme-background li {
+    display: none;
+}
+
+/*a.share-icon.btn.btn-outline-primary, a[data-clipboard-element="shareToClipboard"], a[data-toaster-content="Copied to clipboard"] {
+    display: none!important;
+}*/
+
+.price-box .air-sub-price {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.15em;
+}
+
+.package-summary-price.p-2.border-left.flex-shrink-1.d-flex.align-items-center h5.text-primary.mb-0.text-nowrap.font-weight-bold {
+    font-size: 22px!important;
+}
+
+/*Air Search Tab Box*/
+.section-air-search-tabs .air-search-tabs .air-search-tab span {
+    color: #fff;
+    background: #838383;
+	border: none;
+	border-right: 1px solid #fff;
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.air-search-tabs-container .d-flex.align-items-center {
+    min-height: 50px;
+}
+
+.btn-outline-primary:hover, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary:hover {
+    color: #fff!important;
+    border-color: #fff!important;
+    background-color: #be9f55!important;
+}
+
+.section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span, .section-air-search-tabs .air-search-tabs .air-search-tab span:hover {
+    background: #be9f55!important;
+	color:#fff!important;
+    border: solid 1px #be9f55 !important;
+    margin: 0px 1px;
+}
+
+
+div#flight_options_search_form .air-search-tabs-container {
+    /*color: #fff;*/
+	border-top: solid 10px #be9f55!important;
+}
+
+.air-search-tabs-container {
+    /*color: #fff;*/
+	border-top: solid 10px #be9f55!important;
+}
+
+div#flight_options_search_form label.air-search-tab {
+    margin-bottom: 0;
+}
+
+div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN {
+    /*background-color: #fff;
+    color: #be9f55;*/
+    min-width: 200px;
+}
+
+/*div#flight_options_search_form input#_ctl0_MainContentsPH__ctl0_SearchAirBTN:hover {
+    background: #000;
+    color: #fff;
+}*/
+
+div#flight_options_search_form .air-search-tabs-container select {
+    background-color: #fff!important;
+}
+
+div#lbl_from {
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+div#divFlexibledates {
+    display: none!important;
+}
+
+/*Flight Filters*/
+.filter-section .search-filter .filter-list .only-text {
+    position: absolute;
+    padding: 6px!important;
+    top: 2px!important;
+    right: 2px!important;
+    background: #be9f55;
+   color:#fff;
+    font-weight: 700;
+}
+
+div[data-original-title="Flight departure is close to cruise departure."]:after, div[data-original-title="Flight arrival is close to cruise departure."]:after, div[data-original-title="Flight departure is close to cruise arrival."]:after, div[data-original-title="Flight arrival is close to cruise arrival."]:after, div[data-original-title="Flight departure is after cruise departure."]:after, div[data-original-title="Flight arrival is after cruise departure."]:after {
+    content: "This flight may not bookable due to our minimum connection policy";
+    right: 0;
+    /*max-width: 210px;*/
+    word-wrap: normal;
+    display: block;
+    text-wrap: balance;
+   padding: 5px 10px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2em;
+    background: #c23a3a;
+    color: #fff;
+  border-right: double 15px;
+}
+
+/*HOTEL SEARCH FIXES*/
+#odysseus #OVExploreContainer .od-btn.od-btn-secondary, #odysseus #OVExploreContainer .od-form-wrapper .multiselect__option--selected, #odysseus #OVExploreContainer .od-form-wrapper .multiselect__option--selected.multiselect__option--highlight {
+    border: 0px!important;;
+    background: #be9f55!important;
+}
+
+#pax-count-popup .pax-count-outer .add-room, #pax-count-popup .pax-count-outer .remove-room, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .airports-cruiseports-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .airports-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .airports-hotels, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .airports-hotels-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .cruiseports-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .header-style, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .hotels-header, .od-location-select #location-select-popup .location-select-outer .locations-wrapper>div .others-header{
+ color: #be9f55!important;	
+}
+
+#odysseus #OVExploreContainer .od-form-wrapper .multiselect__content-wrapper{
+	border-color: #be9f55!important;
+}
+
+.vc-container .vc-bg-blue-200, .vc-container .vc-bg-blue-600 {
+    background-color: #be9f55!important;
+}
+
+/*HOTEL RESULTS CSS*/
+.default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search {
+    background-color: #be9f55!important;
+}
+
+
+
+/*Hide room/board and more prices links*/
+div.card.card-material.mb-3.hotel-item-card .col-md-5.col-lg-3.col-12.text-right.card-flex-auto.grid-flex-end div:nth-of-type(3), div.card.card-material.mb-3.hotel-item-card .col-md-5.col-lg-3.col-12.text-right.card-flex-auto.grid-flex-end div:nth-of-type(4) {
+    display:none;
+}
+
+/*remove dollar icon*/
+[data-ody-id='FilterSection'] .odi-money,
+.search-filter .odi-money, em.odi.odi-money.fs24.mr-2 {
+	margin-top: -5px;
+    font-size: 1.5rem !important;
+    margin-right: 0.75rem !important;
+	font-weight: bold;
+}
+
+.search-filter .odi-money {
+	margin-right: 0.5rem !important;
+}
+
+[data-ody-id='FilterSection'] .odi-money::before,
+.search-filter .odi-money::before, em.odi.odi-money.fs24.mr-2:before {
+	content: '£' !important;
+}
+
+/*------------------------------------------TOOLTIPS------------------------------------------*/	
+
+/*TOOLTIP GENERAL*/
+     
+tr.package-itinerary-node.d-none:hover:after, .cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after, .d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after, .package-summary-icon.text-primary:hover:after, .d-print-none.btn-add-hotel:hover:after  {
+position: absolute;
+    /*margin: 40px 0px 0px -175px;*/
+    width: 200px;    
+	z-index: 999;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #ccc;
+    color: #333;
+	border: solid 1px #bbb;
+    border-radius: 10px;
+}
+
+/*TOOLTIP INDIVIDUAL*/
+tr.package-itinerary-node.d-none:hover:after {
+    content: "Add a pre and post cruise flight to your package.";
+	    border-left: solid 10px #aaa;
+	right: 50%;
+}
+
+@media(max-width:1400px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 40%;
+}	
+}
+
+@media(max-width:1100px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 30%;
+}	
+}
+@media(max-width:1000px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 40%;
+}	
+}
+
+@media(max-width:860px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 25%;
+}	
+}
+
+@media(max-width:550px){
+tr.package-itinerary-node.d-none:hover:after {
+	right: 0;
+}	
+}
+
+.d-print-none.btn-add-hotel:hover:after {
+    content: "Add a pre and post cruise hotel to your package.";
+	border-left: solid 10px #aaa;
+	margin-top:-30px;
+}
+
+.cruise-list-view.btn-group.btn-group-small.d-none.d-lg-block.ml-2:hover:after, div#gridandcard:hover:after {
+    content: "Select how you wish to view your results";
+	    border-top: solid 10px #aaa;
+	margin: 40px 0px 0px -140px;
+}
+
+
+/*airline filter tooltip*/
+.d-flex.pointer.p-2[data-target="#airlines-wrap"]:hover:after {
+    content: "click the tickbox to select your option or click on then 'only' button to select only one option";
+    right: -200px; 
+    border-left: solid 10px #aaa;
+}
+
+/*package icon tooltip*/
+.package-summary-icon.text-primary:hover:after {
+    content: "What's included in your current package";
+    border-left: solid 10px #aaa;
+}
