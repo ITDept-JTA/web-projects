@@ -1,0 +1,107 @@
+@-webkit-keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 1;
+    }
+    84% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+left: -9999px; 
+    }
+}
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 1;
+    }
+    84% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+left: -9999px; 
+    }
+}
+
+@-webkit-keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px; 
+  }
+}
+@keyframes seconds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    left: -9999px; 
+  }
+}
+
+div#status-text {
+    position: absolute;
+    background: #fff;
+    padding: 20px;
+    width: 66%;
+    left: 5%;
+    right: 5%;
+    box-shadow: 0px 2px 6px #777;
+    -webkit-animation: fadeInOut 3s;
+    animation: fadeInOut 3s;
+-webkit-animation: seconds 1.0s forwards;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-delay: 5s;
+  animation: seconds 1.0s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+    
+}
+
+.sbx-embedded-form{
+ height: 270px;   
+}
+
+.bootstrap_form select, .bootstrap_form textarea, .bootstrap_form input[type=text], .bootstrap_form input[type=password], .bootstrap_form input[type=datetime], .bootstrap_form input[type=datetime-local], .bootstrap_form input[type=date], .bootstrap_form input[type=month], .bootstrap_form input[type=time], .bootstrap_form input[type=week], .bootstrap_form input[type=number], .bootstrap_form input[type=email], .bootstrap_form input[type=url], .bootstrap_form input[type=search], .bootstrap_form input[type=tel], .bootstrap_form input[type=color], .bootstrap_form .uneditable-input{
+    height: 30px!important;
+    font-size: 16px!important;
+}
+
+button.bulletproof_button_medium {
+    background-color: #3A404F!important;
+    border-color: #3A404F!important;
+    width: 100%;
+          width: 198px !important;
+    display: block;
+    margin: auto;
+}
+
+button.bulletproof_button_medium:hover {
+background-color: #E5C650 !important;
+    border-color: #3A404F !important;
+    padding: 12px 24px;
+    border: solid 1px;
+    color: #3A404F!important;
+}
+
+table.body_wrapper_table{
+    width:100%!important;
+    max-width:300px;
+    margin: 0px!important;
+}
+
+
+#status-text .alert {
+    width: 85%!important;
+    max-width: 400px!important;
+    font-family: "Avant Garde", sans-serif !important;
+}

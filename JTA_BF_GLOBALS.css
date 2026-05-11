@@ -1,0 +1,143 @@
+
+.bf_component_vertical_container:not(.bf_container_nopadding) {
+    margin-bottom: 20px;
+}
+
+
+/*force flight filters box open*/
+body.is-admin.pb.bfv3 div[data-description="hotel supplier filter"] ol.bf_filtercollapsecontainer.bf_cnx, .bf_filtersection.collapsed .bf_filtercollapsecontainer, .bf_filtersection.collapsed .bf_fltclr, .bf_filtersection.collapsed .bf_pricefltclr, .bf_filters_tourtags .bf_filtercollapsecontainer.collapsed {
+    display: block !important;
+}
+
+@media(max-width: 550px){
+  /* COOKIE NOTICE */
+#cookieLaw {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cookieCont {
+  max-width: 90% !important;
+  background-color: white;
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+.bf_hotellistview .bf_select{
+width: 100%!important;
+
+}
+
+    
+}
+
+
+/*Overflow fix*/
+body{
+  overflow-x: hidden;
+}
+
+/*SB3 tweaks*/
+.nbf_tpl_custom.sb3_flighthotel_super_mini .sb3_flighthotel_form .collapsible1 .options-ctr .advanced_options .bagOnly_fares_ctr, .nbf_tpl_custom.sb3_flighthotel_super_mini .sb3_flighthotel_form .collapsible1 .options-ctr .advanced_options .directflights_ctr_copy {
+align-items:baseline;
+}
+
+
+/*Hotel Results- block*/
+body.bfv3 div.bf_mctr{
+Overflow-x: hidden;}
+
+.bf_hoteldistance.bf_l2 {
+    display: none;
+}
+
+/*Tag visibility limit*/
+div.bf_hoteltags div:nth-of-type(n+8)
+ {display: none !important;}
+
+.bf_hotellistview .bf_image
+ {    background-position: center;
+max-width: 250px !important;}
+
+.bf_hotellistview .bf_select{
+    min-height:180px;
+    align-self: stretch!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ 
+
+div.bf_hotellistview  .bf_select .bf_group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+}
+
+.bf_commissionlink.bf_l2.bf_hoverable_price_hotel.bf_hoverable_price {
+    width: 100%;
+}
+
+.bf_hotellistview .bf_select .bf_displayprice .bf_discountprice {
+    margin-bottom: 0.2em!important; 
+}
+
+/*.bf_hotellistview .bf_imagecarousel {
+    max-height: 230px !important;
+}*/
+.bf_480 .bf_hotellistview {
+    justify-content: center;
+}
+
+.bf_480 .bf_imagecarousel {
+    width: 100% !important;
+    height: 200px;
+    overflow: hidden;
+    max-width: 300px!important;
+}
+
+.bf_addprod_resultitem_container.bf_4_col.js-bf_showdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bf_addprod_resultitem_container .bf_addprod_bottomsection, .bf_addprod_resultitem_container .bf_carparkingtopsect, .bf_addprod_resultitem_container .bf_cheader{
+ padding:0px!important;
+}
+
+.bf_imagecarousel{
+ overflow:hidden;
+}
+
+.bf_hotellistview div.bf_selectbtn, .bf_hotellistview div.bf_removebtn {
+    font-size: 1em!important;
+}
+
+div.bf_hotelgridview_header_right .bf_detailsline.bf_boardbasis, div.bf_hotelgridview_header_right .bf_detailsline.bf_emissions{
+width: auto;
+}
+
+div.bf_hotellistview .bf_detailsline.bf_boardbasis, div.bf_hotellistview .bf_detailsline.bf_emissions {
+    width: 100%;
+}
+
+.bf_hotellistview .bf_select .bf_detailsline{
+padding:0px!important;
+}
+
+.bf_hotellistview div.bf_rsshare{
+margin-top:0px}
+
+
+.bf_hotellistview .bf_select{
+width: 25%!important;
+
+}
+
