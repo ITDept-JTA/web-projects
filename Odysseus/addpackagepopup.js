@@ -1,4 +1,4 @@
-function addpkgpopup() {
+/*function addpkgpopup() {
   const path = window.location.pathname.toLowerCase();
 
   // Run only on checkout.aspx OR booking_details.aspx
@@ -60,3 +60,4 @@ function addpkgpopup() {
 
 // Run it when DOM is ready
 document.addEventListener("DOMContentLoaded", addpkgpopup);
+*/
