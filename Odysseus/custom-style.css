@@ -298,7 +298,7 @@ a#_ctl0__ctl1_ItineraryDetails__ctl0_PreCruiseHotelLink, a#_ctl0__ctl1_Itinerary
     display: none;
 }
 
-.supplier-api-errors{display:none;}
+/*.supplier-api-errors{display:none;}*/
 
 /*th[data-ody-id="fareCodeFareTypeTableHeader"] {
  display: none;
@@ -311,9 +311,9 @@ button[data-ody-id="FareCodeSelectionButton"] {
     display: none;
 }*/
 
-.section-alert-message.container-fluid.alert-msg-wrapper {
+/*.section-alert-message.container-fluid.alert-msg-wrapper {
     display: none;
-}
+}*/
 
 input#_ctl0_MainContentsPH__ctl0_HoldNoEmailBTN {
     display: none;
