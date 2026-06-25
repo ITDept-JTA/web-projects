@@ -448,9 +448,9 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }
 
 /*Hide Rules section*/
-[data-ody-id="FilterPanelRules"] {
+/*[data-ody-id="FilterPanelRules"] {
     display: none;
-}
+}*/
 
 .search-bar-section {
     background: /*#fff*/#be9f55!important;
