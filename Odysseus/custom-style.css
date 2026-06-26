@@ -3,6 +3,10 @@ guest-info-v2 cruise-promotions-component span.ml-1.ng-star-inserted {
     display: none;
 }
 
+/*hide rate type*/
+.category-price-table-cell.category-price-cell-table.rate-type, .category-price-table-cell.rate-type
+ {display: none;}
+
 /*hide fare codes*/
 /*.category-price-table .category-farecode-list{
 	display:none;
