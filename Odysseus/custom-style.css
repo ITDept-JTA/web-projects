@@ -3,6 +3,8 @@ guest-info-v2 cruise-promotions-component span.ml-1.ng-star-inserted {
     display: none;
 }
 
+.custom-select { background-color: #fff;}
+
 /*hide rate type*/
 .category-price-table-cell.category-price-cell-table.rate-type, .category-price-table-cell.rate-type
  {display: none;}
