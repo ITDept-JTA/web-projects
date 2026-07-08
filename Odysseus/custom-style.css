@@ -1,3 +1,19 @@
+/*sort by tooltip*/
+div.sailings-results-section .form-group.mb-0.sort-by-control label:hover:before
+ {
+    content: "Sort by Price, Departure or Cabin type";
+    max-width: 150px;
+    position: absolute;
+    background: #333;
+    margin-top: 30px;
+    z-index: 9;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px;
+    border-radius: 5px;
+}
+
 /*max opacity for form labels*/
 search-bar-component .form-group>label, search-bar-component .label-search-arrivalport, search-bar-component .label-search-departureport{
 	opacity:1!important;
