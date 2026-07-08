@@ -8,6 +8,11 @@ search-bar-component .form-group>label, search-bar-component .label-search-arriv
     opacity: .9!important;
 }
 
+/*Form Label Bold*/
+.form-group label {
+    font-weight: 600 !important;
+}
+
 /*invert modify search*/
 section[data-ody-id="CruiseSearchBarSection"] span.text-nowrap.fs18 {
     filter: brightness(0) invert(1);
