@@ -8,7 +8,7 @@ search-bar-component .form-group>label, search-bar-component .label-search-arriv
 }
 
 /*invert modify search*/
-span.text-nowrap.fs18 {
+section[data-ody-id="CruiseSearchBarSection"] span.text-nowrap.fs18 {
     filter: brightness(0) invert(1);
 }
 
