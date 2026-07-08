@@ -7,6 +7,11 @@ search-bar-component .form-group>label, search-bar-component .label-search-arriv
 	opacity:1!important;
 }
 
+/*invert modify search*/
+span.text-nowrap.fs18 {
+    filter: brightness(0) invert(1);
+}
+
 /*payment page notice*/
 body.page_booking_checkout .section-alert-message:before {
     content: "Before proceeding please ensure you select a flight the day prior to the cruise departure";
