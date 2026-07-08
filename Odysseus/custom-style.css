@@ -3,6 +3,11 @@ search-bar-component .form-group>label, search-bar-component .label-search-arriv
 	opacity:1!important;
 }
 
+/*invert modify search*/
+span.text-nowrap.fs18 {
+    filter: brightness(0) invert(1);
+}
+
 /*hide rule number on promo icons*/
 guest-info-v2 cruise-promotions-component span.ml-1.ng-star-inserted {
     display: none;
