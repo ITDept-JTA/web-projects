@@ -2,6 +2,11 @@
 /*body.page_booking_checkout tr[data-ody-id="ItineraryAddAirButton"], body.page_booking_checkout tr.package-itinerary-node:has(div.btn-add-hotel){
 display:none!important;}*/
 
+/*Form Label Bold*/
+.form-group label {
+    font-weight: 600 !important;
+}
+
 /*max opacity for form labels*/
 search-bar-component .form-group>label, search-bar-component .label-search-arrivalport, search-bar-component .label-search-departureport{
 	opacity:1!important;
