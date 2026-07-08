@@ -2,6 +2,11 @@
 /*body.page_booking_checkout tr[data-ody-id="ItineraryAddAirButton"], body.page_booking_checkout tr.package-itinerary-node:has(div.btn-add-hotel){
 display:none!important;}*/
 
+/*max opacity for form labels*/
+search-bar-component .form-group>label, search-bar-component .label-search-arrivalport, search-bar-component .label-search-departureport{
+	opacity:1!important;
+}
+
 /*payment page notice*/
 body.page_booking_checkout .section-alert-message:before {
     content: "Before proceeding please ensure you select a flight the day prior to the cruise departure";
