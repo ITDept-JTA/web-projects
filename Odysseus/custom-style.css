@@ -21,6 +21,11 @@ modal-content .close{
     background-color: #fff;
     padding: 5px;
     margin-top: 5px;
+	justify-content: center;
+}
+
+.modal-footer a.btn{
+	min-width: 85px;
 }
 
 
