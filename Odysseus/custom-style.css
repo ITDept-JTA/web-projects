@@ -1,5 +1,5 @@
 /*call to book pop up adjustments*/
-.modal-dialog.modal-dialog-centered {
+.modal-content {
     flex-direction: column;
     border-radius: 20px;
     overflow: hidden;
