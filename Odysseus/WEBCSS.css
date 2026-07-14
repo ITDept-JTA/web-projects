@@ -12,8 +12,8 @@
 }
 
 modal-content .close{
-    top: 15px;
-    right: 15px;
+    top: 15px!important;
+    right: 15px!important;
 }
 
 .modal-footer {
