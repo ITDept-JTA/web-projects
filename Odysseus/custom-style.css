@@ -1,15 +1,20 @@
 /*call to book pop up adjustments*/
 .modal-dialog.modal-dialog-centered {
     flex-direction: column;
-    background: #fff;
     border-radius: 20px;
     overflow: hidden;
 }
 
 modal-content .close{
-    position: absolute;
     top: 15px;
     right: 15px;
+}
+
+.modal-footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 
