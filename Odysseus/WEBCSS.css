@@ -11,6 +11,10 @@
     margin: auto;
 }
 
+.modal-footer a[onclick="SubmitSelection()"]{
+	display:none!important;
+}
+
 .modal-content .close{
     top: 15px!important;
     right: 15px!important;
