@@ -1,3 +1,28 @@
+/*call to book pop up adjustments*/
+.modal-dialog.modal-dialog-centered {
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.modal-body {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+
+modal-content .close{
+    top: 15px;
+    right: 15px;
+}
+
+.modal-footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
 /*hide addprod buttons on checkout page*/
 /*body.page_booking_checkout tr[data-ody-id="ItineraryAddAirButton"], body.page_booking_checkout tr.package-itinerary-node:has(div.btn-add-hotel){
 display:none!important;}*/
