@@ -11,9 +11,9 @@
     margin: auto;
 }
 
-/*.modal-footer a[onclick="SubmitSelection()"]{
+.modal-dialog.modal-dialog-centered:has(.almost-there) a[onclick="SubmitSelection()"]{
 	display:none!important;
-}*/
+}
 
 .modal-content .close{
     top: 15px!important;
