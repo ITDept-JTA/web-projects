@@ -1,3 +1,12 @@
+/*availability notice*/
+.show-cabinscount {
+    color: #be9f55 !important;
+    background-color: #eee !important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #aaa;
+    font-weight: 600;
+}
+
 /*hide baggage filter*/
 div[Include flights with no bags]{
 	display:none;
