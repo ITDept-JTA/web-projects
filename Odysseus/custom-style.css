@@ -5,6 +5,7 @@ div.category-price-table .show-cabinscount {
     border-radius: 5px;
     box-shadow: 0px 0px 6px #aaa;
     font-weight: 600;
+	border: solid 1px #ccc;
 }
 
 /*hide baggage filter*/
