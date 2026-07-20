@@ -1,3 +1,10 @@
+/*rule icon override*/
+.rules-icons img {
+    max-width: 100% !important;
+    max-height: 25px!important;
+    /*margin: 0 2px;*/
+}
+
 /*availability notice*/
 div.category-price-table .show-cabinscount {
     color: #be9f55 !important;
