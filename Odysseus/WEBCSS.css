@@ -1,6 +1,6 @@
 /*rule icon override*/
 .rules-icons img {
-    max-width: 100% !important;
+    max-width: 100%!important;
     max-height: 25px!important;
     /*margin: 0 2px;*/
 }
