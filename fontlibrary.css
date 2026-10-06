@@ -61,21 +61,6 @@
     font-weight: 900;
     }
 
-/*Noteworthy*/
- @font-face {
-    font-family: "Noteworthy";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Noteworthy-Lt.ttf");
-    font-style: normal;
-    font-weight: 400;
-    }
- @font-face {
-    font-family: "Noteworthy";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Noteworthy-Lt.ttf");
-    font-style: normal;
-    font-weight: normal;
-    }
-
-
 /*Avant Garde*/
  @font-face {
     font-family: "Avant Garde";
@@ -105,224 +90,6 @@
     font-weight: 700;
     }
 
-/*Sofia Pro*/
-
- @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Regular%20Az.ttf");
-    font-style: normal;
-    font-weight: normal;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Regular%20Italic%20Az.ttf");
-    font-style: italic;
-    font-weight: 400;
-
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20ExtraLight%20Italic%20Az.ttf");
-    font-style: italic;
-    font-weight: 100;
-    }
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20ExtraLight%20Italic%20Az.ttf");
-    font-style: italic;
-    font-weight: 100;
-    }
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20UltraLight%20Az.ttf");
-    font-style: normal;
-    font-weight: 200;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20UltraLight%20Italic%20Az.ttf");
-    font-style: italic;
-    font-weight: 200;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Light%20Az.ttf");  
-    font-style: normal;
-    font-weight: 300;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Light%20Italic%20Az.ttf");  
-    font-style: italic;
-    font-weight: 300;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Medium%20Az.ttf");  
-    font-style: normal;
-    font-weight: 500;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Medium%20Italic%20Az.ttf");  
-    font-style: italic;
-    font-weight: 500;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Semi%20Bold%20Az.ttf");
-    font-style: normal;
-    font-weight: 600;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Semi%20Bold%20Italic%20Az.ttf");  
-    font-style: italic;
-    font-weight: 600;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Bold%20Az.ttf");  
-    font-style: normal;
-    font-weight: 700;
-
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Bold%20Italic%20Az.ttf");  
-    font-weight: 700;
-    font-style: italic;
-    }
-    
-
-    @font-face {    
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Black%20Az.ttf");  
-    font-style: normal;
-    font-weight: 900;
-    }
-    
-
-    @font-face {
-    font-family: "Sofia Pro";
-    src: url("https://q2099.github.io/Q_Project_Hub/fonts/Sofia%20Pro%20Black%20Italic%20Az.ttf");  
-    font-style: italic;
-    font-weight: 900;
-    }
-
-/*Centabel*/
-@font-face {
-  font-family: "Centabel";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/centabel.ttf")
-    format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-/*Adrianna Extended*/
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-Thin.ttf")
-    format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-ThinItalic.ttf")
-    format("truetype");
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-Light.ttf")
-    format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-LightItalic.ttf")
-    format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-Regular.ttf")
-    format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-RegularItalic.ttf")
-    format("truetype");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-DemiBold.ttf")
-    format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-DemiBoldItalic.ttf")
-    format("truetype");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-Bold.ttf")
-    format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Adrianna Extended";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/AdriannaExtended-BoldItalic.ttf")
-    format("truetype");
-  font-weight: 700;
-  font-style: italic;
-}
 
 /*NOAH TEXT*/
 @font-face {
@@ -359,14 +126,6 @@
   font-style: normal;
 }
 
-/*BLOWBRUSH*/
-@font-face {
-  font-family: "Blowbrush";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/blowbrush.ttf?raw=true")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 /*MAJESTI BANNER*/
 @font-face {
   font-family: "Majesti";
@@ -586,15 +345,6 @@
   font-style: normal;
 }
 
-/*SKYFALL*/
-@font-face {
-  font-family: "Skyfall";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/SkyFall%20Done.ttf?raw=true")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 /*The Citizens*/
 @font-face {
   font-family: "Citizens";
@@ -602,39 +352,6 @@
     format("truetype");
   font-weight: normal;
   font-style: normal;
-}
-
-/*Constan*/
-@font-face {
-  font-family: "Constan";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/constan.ttf?raw=true")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Constan";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/constani.ttf?raw=true")
-    format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Constan";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/constanb.ttf?raw=true")
-    format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Constan";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/constanz.ttf?raw=true")
-    format("truetype");
-  font-weight: bold;
-  font-style: italic;
 }
 
 /*ARVO*/
@@ -653,75 +370,6 @@
     format("truetype");
   font-weight: bold;
   font-style: normal;
-}
-
-/*BEBAS NEUE*/
-
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src:url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-ThinItalic.ttf") format("truetype");
-  font-weight: 100;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Book.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-BookItalic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Bebas Neue Pro";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/BebasNeuePro-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
 }
 
 /*HELVETICA NOW*/
@@ -893,47 +541,6 @@
   font-weight: 900;
   font-style: normal;
 }
-/*PC.DE*/
-@font-face {
-  font-family: "PC.DE";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PC_DE-Regular.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PC.DE";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/pc de-bold.ttf")
-    format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-/*Nightlife*/
-@font-face {
-  font-family: "Nightlife";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Light.ttf")
-    format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Nightlife";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Regular.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Nightlife";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Nightlife-Bold.ttf")
-    format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
 
 /*Ananda*/
 
@@ -1030,126 +637,7 @@
 
 
 
-/*Passion One*/
-@font-face {
-  font-family: "Passion One";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Regular.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Passion One";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Bold.ttf")
-    format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Passion One";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/PassionOne-Bold.ttf")
-    format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-
-/*Heroic Condensed*/
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Heroic%20Condensed%20Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Heroic%20Condensed%20Light.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Heroic%20Condensed%20Book.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Heroic%20Condensed%20Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Heroic%20Condensed%20Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Heroic%20Condensed%20Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Heroic%20Condensed%20Heavy.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: "Heroic Condensed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Heroic Condensed Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
-
-
 /*OTHERS*/
-
-@font-face {
-  font-family: "Inversionz Unboxed";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Inversionz Unboxed.ttf");
-}
-
-@font-face {
-  font-family: "No Continue";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/gomarice_no_continue.ttf");
-}
-
-/*FOR THE LOVE OF HATE*/
-@font-face {
-  font-family: "LOH";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Fortheloveofhatelight.ttf")
-    format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "LOH";
-  src: url("https://q2099.github.io/Q_Project_Hub/fonts/Fortheloveofhate.ttf?raw=true")
-    format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
 
 /*POPPINS*/
 @font-face {
