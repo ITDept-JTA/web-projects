@@ -693,19 +693,9 @@
 }
 
 
-
-
 /*OTHERS*/
 
 /*POPPINS*/
-@font-face {
-  font-family: "Poppins";
-  src: url("https://itdept-jta.github.io/web-projects/fonts/Fortheloveofhatelight.ttf?raw=true")
-    format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
 @font-face {
   font-family: "Poppins";
   src: url("https://itdept-jta.github.io/web-projects/fonts/Poppins-Regular.ttf")
@@ -811,13 +801,6 @@
 
 .texta {  font-family: "Texta" !important;}
 
-
 .majesti {  font-family: "Majesti" !important;}
-
-
-
-
-
-
 
 
