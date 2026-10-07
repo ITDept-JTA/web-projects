@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
             link.className = "custom-link1 nav-links addprod-2";
             link.target = "_blank";
             link.href =
-                "https://www.jtaholidays.co.uk/enhance-your-cruise/?utm_source=cruise";
+                "https://flexidirect.vibe.travel/enhance-your-cruise/?utm_source=cruise";
             link.textContent = "Add a Package";
 
             const wrapper = document.createElement("div");
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <a target="_blank"
                                class="flexbox"
                                style="gap:10px; align-items:center; flex-wrap:nowrap; color:#fff; justify-content:center;"
-                               href="https://www.jtaholidays.co.uk/enhance-your-cruise">
+                               href="https://flexidirect.vibe.travel/enhance-your-cruise">
                                 <span class="txt-hidden fbx-100">
                                     Add a Package
                                 </span>
