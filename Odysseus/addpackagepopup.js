@@ -24,8 +24,8 @@ function addpkgpopup() {
       <p style="display:none">Click below to add a flight or hotel to supplement your cruise. or close the pop up to continue with your cruise booking</p>
       <p>Your cruise is being held for 15 minutes, if you would like to add a hotel or flight to your cruise, please proceed below, otherwise, click continue to proceed as Cruise Only.</p>
       <div style="justify-content:center; gap:10px; flex-wrap:wrap;" class="flexbox">
-      <a class="custom-link1 nav-links addprod-popup" target="_blank" href="https://www.jtaholidays.co.uk/enhance-your-cruise/flight/?utm_source=cruise">Add a Flight</a>
-      <a class="custom-link2 nav-links addprod-popup" target="_blank" href="https://www.jtaholidays.co.uk/enhance-your-cruise/hotel/?utm_source=cruise">Add a Hotel</a>
+      <a class="custom-link1 nav-links addprod-popup" target="_blank" href="https://flexidirect.vibe.travel/enhance-your-cruise/flight/?utm_source=cruise">Add a Flight</a>
+      <a class="custom-link2 nav-links addprod-popup" target="_blank" href="https://flexidirect.vibe.travel/enhance-your-cruise/hotel/?utm_source=cruise">Add a Hotel</a>
       <a style="cursor:pointer;" class="custom-link3 nav-links addprod-popup nothanks" id="" >Continue as Cruise Only</a>
       </div>
     `;
