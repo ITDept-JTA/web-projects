@@ -642,7 +642,7 @@ tabset.full-width.top-line.outline.tab-container ul li.nav-item:nth-of-type(5) {
 
 .bg-primary, .filter-panel div.bg-primary, .nav-stepper .nav-link.active, .splash-header, .multiselect-package-icons .package-summary-icon .odi.active, .progress-bar-indeterminate::after, .progress-bar-indeterminate::before, .progress-bar-query::after, .progress-bar-query::before, .search-resultpage.swift-search-bar .pax-count .dialog button, .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search, .popup.list>div:hover, .switch-btn.active, .switch-field input:checked+label, .product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search, .bg-optionalAddOns-expand
 {
-    background-color: #BE9F55!important;    
+    background-color: #00274A!important;    
 }
 
 .bg-secondary, .progress-steppe-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, .checkout-stepper-accordion .st-open>.card-header, div[data-ody-id="HotealSearchFilterSec"] h6.card.flex-row.bg-primary.d-flex.align-items-center.px-2.py-2{
