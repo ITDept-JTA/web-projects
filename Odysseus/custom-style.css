@@ -591,7 +591,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }
 
 .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner::after, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner::after, .nav-stepper .nav-link.active::after {
-    border-color: transparent #BE9F55!important;
+    border-color: transparent  #00274A!important;
 }
 
 .cruise-title, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted, .text-price-color, .text-primary, .top-line .nav-tabs>li.active>a.nav-link, .top-line .nav-tabs>li.active>a.nav-link:focus, .top-line .nav-tabs>li.active>a.nav-link:hover, a.hotel-searchform-top.text-decoration-none.py-1 span, h6.sailing-category-price.my-2 {
@@ -623,7 +623,7 @@ tabset.full-width.top-line.outline.tab-container ul li.nav-item:nth-of-type(5) {
 }
 
 .btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .section-booking-timer-extend, .trip-price-popup {
-    border-color: #00274A!important;
+    border-color: #BE9F55!important;
 }
 
 .btn-outline-secondary {
