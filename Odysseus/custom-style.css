@@ -189,7 +189,7 @@ section.air-card:has(div[data-original-title="Flight arrival is close to cruise 
 div.marquee {
     text-align: center;
     font-weight: 700;
-    background: #bf9e55;
+    background: #00274A;
     color: #fff;
     padding: 5px;
     text-transform: capitalize;
@@ -670,7 +670,7 @@ div#divFlexibledates {
 
 .progress-stepper-arrow .checkout-steps-wrap .checkout-step.past .checkout-step-inner, .section-air-search-tabs .air-search-tabs .air-search-tab input:checked+span::before, .flight-info .transit-table-top, .ui-slider .ui-slider-handle, .ui-slider .ui-slider-range, .progress-stepper-arrow .checkout-steps-wrap .checkout-step.current .checkout-step-inner, ::selection, .checkout-stepper-accordion .valid .spc-panel-title .step-number, div[data-ody-id="CheckoutDetails"] .card.st-open a.card-header.d-md-flex.align-items-center.spc-panel-title 
    {
-     background: #BE9F55!important;    
+     background: #00274A!important;    
 }
 
 .default-product-searchform-container #odysseus #OVExploreContainer .od-tab-form-wrapper .od-button-wrapper.od-search-button .od-btn.btn-search:hover {
