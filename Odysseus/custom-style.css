@@ -468,8 +468,8 @@ color: #777;
 }
 
 button[data-ody-id=SearchButton], button[data-ody-id=SearchButton]:focus, button[data-ody-id=SearchButton]:hover{
-       background-color: #333;
-    border-color: #333;     
+       background-color: /*#333*/#BE9F55;
+    border-color: /*#333*/#BE9F55;     
 }
 
 .btn-container .primary-btn, .btn-container .primary-btn:hover{
@@ -552,7 +552,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }*/
 
 .search-bar-section {
-    background: /*#fff*/#be9f55!important;
+    background: /*#fff*//*#be9f55*/#00274A !important;
     color: /*#666*/#fff!important;
 }
 
@@ -595,7 +595,7 @@ section[data-ody-id="CruiseSearchBarSection"] .searchbar-checkbox-group div.ml-3
 }
 
 .cruise-title, .filter-panel .card .card-heading .panel-icon, h4.cruise-title.clearfix.dir-ltr.ng-star-inserted, .text-price-color, .text-primary, .top-line .nav-tabs>li.active>a.nav-link, .top-line .nav-tabs>li.active>a.nav-link:focus, .top-line .nav-tabs>li.active>a.nav-link:hover, a.hotel-searchform-top.text-decoration-none.py-1 span, h6.sailing-category-price.my-2 {
-    color: #BE9F55!important;
+    color: #00274A!important;
 	text-transform: uppercase;
 }
 
@@ -619,7 +619,7 @@ tabset.full-width.top-line.outline.tab-container ul li.nav-item:nth-of-type(5) {
 }*/
 
 .d-flex.align-items-start.justify-content-between.guest-info-title .text-primary {
-    color: #BE9F55!important;
+    color: #00274A!important;
 }
 
 .btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .section-booking-timer-extend, .trip-price-popup {
@@ -684,7 +684,7 @@ div#divFlexibledates {
 }
 
 .matrix-card .airline-matrix-wrap .matrix-left .mstops label, .text-primary, .text-secondary, .page-title, .nav-stepper .stepper-item-caption, .search-resultpage.swift-search-bar .btn-outline-primary, .search-resultpage.swift-search-bar .btn-primary, .search-resultpage.swift-search-bar .primary-btn, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-outline-primary, .search-resultpage.swift-search-bar .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .btn-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-outline-primary, .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .search-resultpage.swift-search-bar .btn-primary, cruise-prices-component .cruise-lowest-prices .low-rate .low-rate-list li span{
-color: #BE9F55!important;
+color: #00274A!important;
 }
 
 cruise-prices-component .cruise-lowest-prices .low-rate {
