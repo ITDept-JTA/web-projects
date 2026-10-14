@@ -622,10 +622,13 @@ tabset.full-width.top-line.outline.tab-container ul li.nav-item:nth-of-type(5) {
     color: #00274A!important;
 }
 
-.btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .section-booking-timer-extend, .trip-price-popup {
+.btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover, .section-package-details, .section-booking-timer-extend, .trip-price-popup {
     border-color: #BE9F55!important;
 }
 
+loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel, .flight-info, .loading-box, .loading-box-air, .loading-box-cruise, .loading-box-hotel,
+ {   border-color: #00274A!important;
+}
 .btn-outline-secondary {
     color: #BE9F55!important;
     border-color: #BE9F55!important;
