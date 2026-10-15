@@ -5,6 +5,10 @@
     /*margin: 0 2px;*/
 }
 
+/*collapsed modify search*/
+.search-bar-section-collapsed{
+	background-color: #00274A!important;}
+
 /*availability notice*/
 div.category-price-table .show-cabinscount {
     color: #be9f55 !important;
