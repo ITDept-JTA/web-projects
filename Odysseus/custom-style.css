@@ -630,8 +630,12 @@ tabset.full-width.top-line.outline.tab-container ul li.nav-item:nth-of-type(5) {
     display: none;
 }*/
 
+[data-ody-id=GuestInfoAdult] fieldset {
+    background: #00274A!important;
+}
+
 .d-flex.align-items-start.justify-content-between.guest-info-title .text-primary {
-    color: #00274A!important;
+    color: #fff!important;
 }
 
 .btn-outline-primary, .nav-tabs>li.active>a.nav-link, .nav-tabs>li.active>a.nav-link:focus, .nav-tabs>li.active>a.nav-link:hover {
