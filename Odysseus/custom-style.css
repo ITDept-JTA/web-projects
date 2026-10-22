@@ -177,6 +177,10 @@ li.ng-star-inserted:has(span.promo-NRD), span[data-ody-id="promo_NRD"] {
     display: none;
 }*/
 
+div#st-accordion .card-header {
+    background-color: #BE9F55;
+}
+
 a.addprod, a.addprod2, a.addprod-popup {
     background: #BE9F55;
     color: #fff!important;
