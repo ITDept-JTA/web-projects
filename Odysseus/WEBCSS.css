@@ -20,6 +20,10 @@ div#searchFilters a, .round-trip-inner.my-2 label
 color:#fff!important;
 }
 
+div.filter-section-container div.panel-collapse.collapse.show.px-2.pb-2 {
+    margin-top: 15px;
+}
+
 /*availability notice*/
 .show-cabinscount {
     color: #be9f55 !important;
