@@ -13,6 +13,13 @@ button:has(em.odi-info), button:has(em.odi-plus), button:has(em.odi-share),a:has
 color:#fff!important;
 }
 
+div#searchFilters a
+ {
+        background-color: #00274A !important;
+    border: solid 1px #00274A !important;
+color:#fff!important;
+}
+
 /*availability notice*/
 .show-cabinscount {
     color: #be9f55 !important;
