@@ -13,7 +13,7 @@ button:has(em.odi-info), button:has(em.odi-plus), button:has(em.odi-share),a:has
 color:#fff!important;
 }
 
-div#searchFilters a
+div#searchFilters a, .round-trip-inner.my-2 label
  {
         background-color: #00274A !important;
     border: solid 1px #00274A !important;
