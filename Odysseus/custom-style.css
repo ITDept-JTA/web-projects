@@ -16,6 +16,10 @@ div#Upgrade-room-contents .table{
 color:#fff!important;
 }
 
+div#Upgrade-room-contents .table-hover tbody tr:hover{
+	color:#fff!important;
+}
+
 .btn-primary:has(em.odi-view-list), .btn-primary:has(em.odi-view-module), a.saveforlater-btn{
     background-color: #00274A !important;
 color:#fff!important;		
