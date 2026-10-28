@@ -5,6 +5,14 @@
     /*margin: 0 2px;*/
 }
 
+/*non-essential button colours*/
+button:has(em.odi-info), button:has(em.odi-plus), button:has(em.odi-share),a:has(em.odi-share-variant), button:has(em.odi-search-person), a.more-link pointer, button:has(em.odi-pdf), button[data-ody-id="FareCodeSelectionButton"], input#CalculateYield, input[data-ody-id="RequestCabinButton"], a#agent-viewlnk, input[data-ody-id="ShowAllCruiseCategoryBtn"], div.svl-per-category-btn-cont a, .ml-auto.d-flex a[data-toggle="modal"], div#cabinupgradealternate, div#Upgrade-room-contents
+{
+    background-color: #00274A !important;
+    border: solid 1px #00274A !important;
+color:#fff!important;
+}
+
 /*availability notice*/
 .show-cabinscount {
     color: #be9f55 !important;
