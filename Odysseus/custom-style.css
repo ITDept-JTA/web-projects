@@ -6,7 +6,7 @@
 }
 
 /*breadcrumb custom stage tags*/
-.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before, progress-stepper div.checkout-step:first-of-type span span:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before, progress-stepper div.checkout-step:nth-of-type(2) span span:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before, progress-stepper div.checkout-step:nth-of-type(3) span span:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before, progress-stepper div.checkout-step:nth-of-type(4) span span:before, {
+.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before, progress-stepper div.checkout-step:first-of-type span span:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before, progress-stepper div.checkout-step:nth-of-type(2) span span:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before, progress-stepper div.checkout-step:nth-of-type(3) span span:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before, progress-stepper div.checkout-step:nth-of-type(4) span span:before {
     position: absolute;
     z-index: 99;
     font-size: 14px;
