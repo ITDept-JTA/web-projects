@@ -5,36 +5,6 @@
     /*margin: 0 2px;*/
 }
 
-/*breadcrumb custom stage tags*/
-.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before {
-    position: absolute;
-    z-index: 99;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.mb-2.breadcrumb-bottom-0 li.nav-item.active-nav-item:first-of-type:before, .mb-2.breadcrumb-bottom-0 li.nav-item.active-nav-item:nth-of-type(2):before, .mb-2.breadcrumb-bottom-0 li.nav-item.active-nav-item:nth-of-type(3):before, .mb-2.breadcrumb-bottom-0 li.nav-item.active-nav-item:nth-of-type(4):before {
-color:#fff;
-}
-
-.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before, .{   padding: 0px 5px;}
-
-.mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before {
-    padding: 0px 15px;
-}
-
-@media(max-width: 920px){
-.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before {
-    font-size: 12px;
-    padding: 0px 3px;
-}
-}
-
-.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before {content: "Stage 1";}
-.mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before {content: "Stage 2";}
-.mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before {content: "Stage 3";}
-.mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before { content: "Stage 4";}
 
 /*non-essential button colours*/
 button:has(em.odi-info), button:has(em.odi-plus), button:has(em.odi-share),a:has(em.odi-share-variant), button:has(em.odi-search-person), a.more-link pointer, button:has(em.odi-pdf), button[data-ody-id="FareCodeSelectionButton"], input#CalculateYield, input[data-ody-id="RequestCabinButton"], a#agent-viewlnk, input[data-ody-id="ShowAllCruiseCategoryBtn"], div.svl-per-category-btn-cont a, .ml-auto.d-flex a[data-toggle="modal"], div#cabinupgradealternate, div#Upgrade-room-contents
