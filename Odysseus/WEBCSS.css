@@ -123,7 +123,7 @@ section[data-ody-id="CruiseSearchBarSection"] span.text-nowrap.fs18 {
 }
 
 /*payment page notice*/
-body.page_booking_checkout .section-alert-message:before {
+/*body.page_booking_checkout .section-alert-message:before {
     content: "Before proceeding please ensure you select a flight the day prior to the cruise departure";
     width: 100%;
     background: red;
@@ -134,7 +134,7 @@ body.page_booking_checkout .section-alert-message:before {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-}
+}*/
 
 div.hotelform.vue_multiselect .od-input-wrapper.od-one-third-width.destination.location_select_v1 label:after {
     content: "(Click to change default destination)";
