@@ -5,6 +5,28 @@
     /*margin: 0 2px;*/
 }
 
+/*breadcrumb custom stage tags*/
+.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before {
+    position: absolute;
+    z-index: 99;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 5px;
+}
+
+@media(max-width: 920px){
+.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before, .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before {
+    font-size: 12px;
+    padding: 0px 3px;
+}
+}
+
+.mb-2.breadcrumb-bottom-0 li.nav-item:first-of-type:before {content: "Stage 1";}
+.mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(2):before {content: "Stage 2";}
+.mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(3):before {content: "Stage 3";}
+.mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before { content: "Stage 4";}
+
 /*continue button css*/
 div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button.btn.btn-primary.mb-1.ml-2.fs16:hover:before, div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button[data-ody-id="ContinueButton"]:hover:before
  {
