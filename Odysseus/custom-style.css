@@ -38,7 +38,7 @@ color:#fff;
 .mb-2.breadcrumb-bottom-0 li.nav-item:nth-of-type(4):before, progress-stepper div.checkout-step:nth-of-type(4) span span:before { content: "Stage 4:";}
 
 /*continue button css*/
-div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button.btn.btn-primary.mb-1.ml-2.fs16:hover:before, div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button[data-ody-id="ContinueButton"]:hover:before
+div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button[data-ody-id="ContinueButton"]:hover:before
  {
     content: "Continue with simple flow"!important;
     position: absolute;
