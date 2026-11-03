@@ -53,6 +53,22 @@ div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSecti
     border-radius: 5px;
 }
 
+/*cruisepro button css*/
+div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button.btn.btn-primary.mb-1.ml-2.fs16:hover:before, div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button[data-ody-id="FareCodeSelectionButton"]:hover:before
+ {
+    content: "Continue with agent flow"!important;
+    position: absolute;
+    margin-top: 35px;
+    color: #fff;
+    z-index: 999;
+    font-weight: 400;
+    background: #333;
+    padding: 5px 30px;
+    font-size: 11px;
+    right: 0px;
+    border-radius: 5px;
+}
+
 /*non-essential button colours*/
 button:has(em.odi-info), button:has(em.odi-plus), button:has(em.odi-share),a:has(em.odi-share-variant), button:has(em.odi-search-person), a.more-link pointer, button:has(em.odi-pdf), button[data-ody-id="FareCodeSelectionButton"], input#CalculateYield, input[data-ody-id="RequestCabinButton"], a#agent-viewlnk, input[data-ody-id="ShowAllCruiseCategoryBtn"], div.svl-per-category-btn-cont a, .ml-auto.d-flex a[data-toggle="modal"], div#cabinupgradealternate, div#Upgrade-room-contents, a#Non-combinelnk
 {
