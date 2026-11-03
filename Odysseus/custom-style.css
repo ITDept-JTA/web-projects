@@ -54,7 +54,7 @@ div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSecti
 }
 
 /*cruisepro button css*/
-div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button.btn.btn-primary.mb-1.ml-2.fs16:hover:before, div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button[data-ody-id="FareCodeSelectionButton"]:hover:before
+div[data-ody-id="CruiseGuestDetailsWrapper"] div[data-ody-id="EmailOfficeIDSection"] button[data-ody-id="FareCodeSelectionButton"]:hover:before
  {
     content: "Continue with agent flow"!important;
     position: absolute;
