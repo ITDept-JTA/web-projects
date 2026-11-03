@@ -16,6 +16,12 @@
 	top:0;*/
 }
 
+progress-stepper div.checkout-step:first-of-type span span:before, progress-stepper div.checkout-step:nth-of-type(2) span span:before, progress-stepper div.checkout-step:nth-of-type(3) span span:before, progress-stepper div.checkout-step:nth-of-type(4) span span:before
+{
+left: 0;
+	top:0;	
+}
+
 .mb-2.breadcrumb-bottom-0 li.nav-item.active-nav-item:first-of-type:before, .mb-2.breadcrumb-bottom-0 li.nav-item.active-nav-item:nth-of-type(2):before, .mb-2.breadcrumb-bottom-0 li.nav-item.active-nav-item:nth-of-type(3):before, .mb-2.breadcrumb-bottom-0 li.nav-item.active-nav-item:nth-of-type(4):before {
 color:#fff;
 }
