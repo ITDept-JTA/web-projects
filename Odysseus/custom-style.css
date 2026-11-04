@@ -8,11 +8,11 @@ text-decoration: underline;
 li.nav-item.completed-nav-item .nav-link::after{
 border-color: transparent #be9f55!important;}
 
-.nav-stepper .nav-link:hover {
+li.nav-item.completed-nav-item .nav-link:hover {
     background-color: #00274A!important;
 }
 
-.nav-stepper .nav-link:hover::after{
+li.nav-item.completed-nav-item .nav-link:hover::after{
 border-color: transparent #00274A!important;}
 
 /*rule icon override*/
