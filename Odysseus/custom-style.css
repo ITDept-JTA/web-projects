@@ -292,6 +292,11 @@ section.air-card:has(div[data-original-title="Flight arrival is close to cruise 
   display: none !important;
 }
 
+/*hide package ID*/
+span[data-ody-id="DisplayPackageId"] {
+    display: none;
+}
+
 /*marquee-style*/
 div.marquee {
     text-align: center;
