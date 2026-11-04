@@ -1,11 +1,11 @@
 /*completed step breadcrumb adjustment*/
-li.nav-item.completed-nav-item .nav-stepper .nav-link {
+.nav-stepper li.nav-item.completed-nav-item .nav-link {
     background-color: #be9f55!important;
     color: #fff;
 text-decoration: underline;
 }
 
-li.nav-item.completed-nav-item .nav-stepper .nav-link::after{
+.nav-stepper li.nav-item.completed-nav-item .nav-link::after{
 border-color: transparent #be9f55!important;}
 
 .nav-stepper .nav-link:hover {
