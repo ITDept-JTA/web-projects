@@ -1,3 +1,20 @@
+/*completed step breadcrumb adjustment*/
+.nav-stepper .nav-link {
+    background-color: #be9f55;
+    color: #fff;
+text-decoration: underline
+}
+
+.nav-stepper .nav-link::after{
+border-color: transparent #be9f55;}
+
+.nav-stepper .nav-link:hover {
+    background-color: #00274A;
+}
+
+.nav-stepper .nav-link:hover::after{
+border-color: transparent #00274A;}
+
 /*rule icon override*/
 .rules-icons img {
     max-width: 100%!important;
