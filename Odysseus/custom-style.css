@@ -6,7 +6,7 @@ li.nav-item.completed-nav-item .nav-link {
 }
 
 .nav-stepper .stepper-item-caption {
-    color: #fff !important; text-decoration: underline;
+    color: #fff !important; /*text-decoration: underline*/;
 }
 
 li.nav-item.completed-nav-item .nav-link::after{
