@@ -1,5 +1,5 @@
 /*hide options in acvanced search*/
-div[data-ody-id="CruiseTypeWrapper"]:has(input[value="Cruise line Tour"]) {
+div[data-ody-id="CruiseTypeWrapper"]:has(input[value="Cruise line Tour"]), div[data-ody-id="CruiseTypeWrapper"]:has(input[value="Cruise Only"]) {
     display: none;
 }
 
