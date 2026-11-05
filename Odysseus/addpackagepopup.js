@@ -9,6 +9,13 @@ function addpkgpopup() {
     return;
   }
 
+  // Do not run if the additional field div is present
+  if (document.querySelector(
+    "div#_ctl0_MainContentsPH__ctl0_BookingContact_AdditionalField4TR"
+  )) {
+    return;
+  }
+
   // Delay before showing popup
   setTimeout(() => {
 
