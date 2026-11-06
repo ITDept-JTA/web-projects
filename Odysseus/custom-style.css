@@ -3,7 +3,9 @@ div[data-ody-id="CruiseTypeWrapper"]:has(input[value="Cruise line Tour"]), div[d
     display: none;
 }
 
-button[data-ody-id="AddAirButton"] {  display: none;}
+button[data-ody-id="AddAirButton"], a[href="javascript:showAirSearch()"] {
+    display: none !important;
+}
 
 /*completed step breadcrumb adjustment*/
 li.nav-item.completed-nav-item .nav-link {
