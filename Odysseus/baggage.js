@@ -22,3 +22,9 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(uncheckBaggageFalseIfNoBagsFilterExists, 3000);
 });
 */
+if (window.location.href.includes('book.jtacruise.co.uk/web/cruises/farecodes.aspx')) {
+    document.querySelectorAll('label.custom-control.custom-checkbox input')
+        .forEach(input => {
+            if (!input.checked) input.click();
+        });
+}
