@@ -3,6 +3,8 @@ div[data-ody-id="CruiseTypeWrapper"]:has(input[value="Cruise line Tour"]), div[d
     display: none;
 }
 
+button[data-ody-id="AddAirButton"] {  display: none;}
+
 /*completed step breadcrumb adjustment*/
 li.nav-item.completed-nav-item .nav-link {
     background-color: #be9f55!important;
