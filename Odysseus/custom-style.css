@@ -12,6 +12,10 @@ div[data-ody-id="ViewMoreLink"]
     padding: 0.25em;
 }
 
+div[data-ody-id="ViewMoreLink"]:hover{
+	    background-color: #be9f55;
+}
+
 div[data-ody-id="ViewMoreLink"] a
  {text-align:center;
  }
