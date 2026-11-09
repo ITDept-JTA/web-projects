@@ -4,7 +4,7 @@ function addpkgpopup() {
   // Run only on checkout.aspx OR booking_details.aspx
   if (
     !path.includes("checkout.aspx") &&
-    !path.includes("booking_details.aspx")
+    //!path.includes("booking_details.aspx")
   ) {
     return;
   }
