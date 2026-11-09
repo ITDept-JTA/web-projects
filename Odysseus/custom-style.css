@@ -1,5 +1,5 @@
 /*promo icon resize*/
-.category-price-table-cell-body a img {
+.category-price-table-cell-body a img, .cruise-offers-list li img {
     max-height: 34px!important;}
 
 /*hide options in acvanced search*/
