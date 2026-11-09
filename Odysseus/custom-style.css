@@ -2,6 +2,18 @@
 .category-price-table-cell-body a img, .cruise-offers-list li img {
     max-height: 34px!important;}
 
+/*view more button prominence*/
+div[data-ody-id="ViewMoreLink"]
+ {
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #00274A;
+    color: #fff;
+    padding: 0.25em;
+}
+div[data-ody-id="ViewMoreLink"] a
+ {text-align:center;}
+
 /*hide options in acvanced search*/
 div[data-ody-id="CruiseTypeWrapper"]:has(input[value="Cruise line Tour"]), div[data-ody-id="CruiseTypeWrapper"]:has(input[value="Cruise Only"]) {
     display: none;
