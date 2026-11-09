@@ -290,9 +290,9 @@ li.ng-star-inserted:has(span.promo-NRD), span[data-ody-id="promo_NRD"] {
     display: none !important;
 }
 
-/*body[data-ody-user-type="b2b"] button:has(em.odi.odi-share), body[data-ody-user-type="b2b"]  a:has(i.odi.odi-share), a.share-icon {
+body[data-ody-user-type="b2b"] button:has(em.odi.odi-share), body[data-ody-user-type="b2b"]  a:has(i.odi.odi-share), a.share-icon, button[data-ody-id="GeneratePDFButton"] {
     display: none;
-}*/
+}
 
 div#st-accordion .card-header {
     background-color: #BE9F55;
