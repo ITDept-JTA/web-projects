@@ -13,7 +13,7 @@ div[data-ody-id="ViewMoreLink"]
 }
 
 div[data-ody-id="ViewMoreLink"]:hover{
-	    background-color: #be9f55;
+	    background-color: #be9f55; color:#fff;
 }
 
 div[data-ody-id="ViewMoreLink"] a
