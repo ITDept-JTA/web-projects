@@ -2,6 +2,9 @@
 .category-price-table-cell-body a img, .cruise-offers-list li img {
     max-height: 34px!important;}
 
+/*hide fleximarkup*/
+.card.p-2.mb-3.category-markup { display: none;}
+
 /*view more button prominence*/
 div[data-ody-id="ViewMoreLink"]
  {
