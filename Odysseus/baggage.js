@@ -28,3 +28,10 @@ if (window.location.href.includes('book.jtacruise.co.uk/web/cruises/farecodes.as
             if (!input.checked) input.click();
         });
 }
+
+//Hide Admin Fees
+document.querySelectorAll('tr.border-bottom-dashed').forEach(row => {
+    if ([...row.querySelectorAll('td')].some(td => td.textContent.trim() === 'Admin Fees')) {
+        row.style.display = 'none';
+    }
+});
