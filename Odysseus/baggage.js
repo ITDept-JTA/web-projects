@@ -29,6 +29,16 @@ if (window.location.href.includes('book.jtacruise.co.uk/web/cruises/farecodes.as
         });
 }
 
+window.addEventListener('load', function () {
+    setTimeout(function () {
+        document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').forEach(row => {
+            if (row.textContent.includes('Admin Fees')) {
+                row.style.display = 'none';
+            }
+        });
+    }, 3000);
+});
+
 //Hide Admin Fees
 document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').forEach(row => {
     if (row.textContent.includes('Admin Fees')) {
