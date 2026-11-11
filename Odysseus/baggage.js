@@ -30,8 +30,8 @@ if (window.location.href.includes('book.jtacruise.co.uk/web/cruises/farecodes.as
 }
 
 //Hide Admin Fees
-document.querySelectorAll('tr.border-bottom-dashed').forEach(row => {
-    if ([...row.querySelectorAll('td')].some(td => td.textContent.trim() === 'Admin Fees')) {
+document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').forEach(row => {
+    if (row.textContent.includes('Admin Fees')) {
         row.style.display = 'none';
     }
 });
