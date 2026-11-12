@@ -1,3 +1,34 @@
+/*floating buttons*/
+.btn-float {
+  position: fixed;
+  right: 0;
+  top: 40%;
+  z-index: 99999;
+
+  background: #1e3a5f;
+  color: #ffffff;
+  padding: 16px 22px;
+
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+
+  transition: all 0.3s ease;
+}
+
+.btn-float:hover {
+  background: #f0a52b;
+  color: #ffffff;
+  padding-right: 28px;
+}
+
 /*promo icon resize*/
 .category-price-table-cell-body a img, .cruise-offers-list li img {
     max-height: 34px!important;}
