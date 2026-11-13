@@ -4,22 +4,16 @@
   right: 0;
   top: 40%;
   z-index: 99999;
-
   background: #1e3a5f;
   color: #ffffff;
-  padding: 16px 22px;
-
-  font-family: Arial, sans-serif;
+  padding: 15px 10px;
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
-
-  border-radius: 10px 0 0 10px;
+  border-radius: 0px 10px 10px 0px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-
   transition: all 0.3s ease;
 }
 
