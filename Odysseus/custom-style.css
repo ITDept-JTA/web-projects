@@ -1,26 +1,121 @@
 /*floating buttons*/
-.btn-float {
+.floating-buttons {
   position: fixed;
   right: 0;
-  top: 40%;
+  top: 35%;
   z-index: 99999;
-  background: #1e3a5f;
-  color: #ffffff;
-  padding: 15px 10px;
-  font-size: 15px;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 0px 10px 10px 0px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.floating-btn {
+  display: block;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
+  padding: 18px 16px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   transition: all 0.3s ease;
 }
 
-.btn-float:hover {
-  background: #BE9F55;
-  color: #ffffff;
-  padding-right: 28px;
+.flexi-btn {
+  background: #1e3a5f;
+}
+
+.flexi-btn:hover {
+  background: #f0a52b;
+  padding-right: 22px;
+}
+
+.failed-btn {
+  background: #e67e22;
+}
+
+.failed-btn:hover {
+  background: #c45e0b;
+  padding-right: 22px;
+}
+
+/* Popup */
+.failed-popup {
+  display: none;
+  position: fixed;
+  right: 85px;
+  top: 35%;
+  width: 280px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.25);
+  z-index: 100000;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.failed-popup.active {
+  display: block;
+}
+
+.failed-popup h3 {
+  color: #1e3a5f;
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.failed-popup p {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.phone-link {
+  display: inline-block;
+  background: #1e3a5f;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.phone-link:hover {
+  background: #f0a52b;
+}
+
+.popup-close {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+}
+
+/* Mobile adjustments */
+@media (max-width: 480px) {
+  .floating-btn {
+    font-size: 12px;
+    padding: 15px 12px;
+  }
+
+  .failed-popup {
+    right: 65px;
+    width: min(260px, calc(100vw - 90px));
+    box-sizing: border-box;
+  }
 }
 
 /*promo icon resize*/
