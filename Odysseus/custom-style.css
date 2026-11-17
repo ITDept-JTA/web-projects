@@ -46,6 +46,15 @@
 	color:#fff;
 }
 
+.fault-btn {
+  background: #29876b;
+}
+
+.fault-btn:hover {
+  background: #206b54;
+  padding-right: 22px;
+}
+
 /* Popup */
 .failed-popup {
   display: none;
