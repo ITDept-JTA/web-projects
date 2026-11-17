@@ -33,7 +33,7 @@ function addpkgpopup() {
       <div style="justify-content:center; gap:10px; flex-wrap:wrap;" class="flexbox">
       <a class="custom-link1 nav-links addprod-popup" target="_blank" href="https://jtacruise.co.uk/?utm_source=cruise">Add a Flight</a>
       <a class="custom-link2 nav-links addprod-popup" target="_blank" href="https://jtacruise.co.uk/hotel.php/?utm_source=cruise">Add a Hotel</a>
-      <a class="custom-link3 nav-links addprod-popup" target="_blank" href="https://jtacruise.co.uk/holiday.php/?utm_source=cruise">Add a Flight & Hotel</a>
+      <a class="custom-link3 nav-links addprod-popup" target="_blank" href="https://jtacruise.co.uk/holidays.php/?utm_source=cruise">Add a Flight & Hotel</a>
       <a style="cursor:pointer;" class="custom-link4 nav-links addprod-popup nothanks" id="" >Continue as Cruise Only</a>
       </div>
     `;
