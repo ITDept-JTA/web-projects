@@ -31,8 +31,9 @@
 }
 
 .flexi-btn:hover {
-  background: #f0a52b;
+  background: #be9f55;
   padding-right: 22px;
+	color: #fff;
 }
 
 .failed-btn {
@@ -42,6 +43,7 @@
 .failed-btn:hover {
   background: #c45e0b;
   padding-right: 22px;
+	color:#fff;
 }
 
 /* Popup */
