@@ -40,15 +40,17 @@ window.addEventListener('load', function () {
 });
 
 //Hide Admin Fees
-document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').forEach(row => {
-    if (row.textContent.includes('Admin Fees')) {
-        row.style.display = 'none';
-    }
-});
+window.addEventListener('load', function () {
+    setTimeout(function () {
+        document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').forEach(row => {
+            const text = row.textContent;
 
-//Hide Admin Fees
-document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').forEach(row => {
-    if (row.textContent.includes('JTA - Profit / (Loss)')) {
-        row.style.display = 'none';
-    }
+            if (
+                text.includes('Admin Fees') ||
+                text.includes('JTA - Profit / (Loss)')
+            ) {
+                row.style.display = 'none';
+            }
+        });
+    }, 3000);
 });
