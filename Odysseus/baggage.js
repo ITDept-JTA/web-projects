@@ -40,7 +40,7 @@ window.addEventListener('load', function () {
 });
 
 //Hide Admin Fees
-window.addEventListener('load', function () {
+/*window.addEventListener('load', function () {
     setTimeout(function () {
         document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').forEach(row => {
             const text = row.textContent;
@@ -53,4 +53,4 @@ window.addEventListener('load', function () {
             }
         });
     }, 3000);
-});
+});*/
