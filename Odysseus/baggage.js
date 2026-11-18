@@ -45,3 +45,10 @@ document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').
         row.style.display = 'none';
     }
 });
+
+//Hide Admin Fees
+document.querySelectorAll('table.flight-summary-table tr.border-bottom-dashed').forEach(row => {
+    if (row.textContent.includes('JTA - Profit / (Loss)')) {
+        row.style.display = 'none';
+    }
+});
