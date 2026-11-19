@@ -16,6 +16,7 @@
                     Please <a href="${formUrl}" target="_blank" rel="noopener noreferrer">click here</a>
                     to fill out a login issues form and our team will work to restore your account.
                 </p>
+                <p><b>Please Note:</b> you need to log in to your profile on <a href="https://jtacruise.co.uk">jtacruise.co.uk</a> before you can get granted access to this booking flow.</p>
             </div>
         `;
 
